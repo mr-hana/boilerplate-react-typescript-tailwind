@@ -667,8 +667,8 @@ body {
   display: table;
 }
 
-.flex-col {
-  flex-direction: column;
+.grid {
+  display: grid;
 }
 
 .justify-center {
@@ -685,10 +685,6 @@ body {
 
 .focus\:outline-none:focus {
   outline: 0;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .py-2 {
@@ -730,6 +726,14 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.col-start-2 {
+  grid-column-start: 2;
+}
+
+.col-end-3 {
+  grid-column-end: 3;
 }
 
 .transition {

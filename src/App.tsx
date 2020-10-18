@@ -1,22 +1,24 @@
 import React from 'react';
+import { Container } from 'components/Layout/Container';
+import { Section } from 'components/Layout/Section';
 import { TextField } from 'components/TextField';
 import { Button } from 'components/Button';
 
 function App() {
   return (
-    <div className="p-10">
-      <div>
+    <Container>
+      <Section>
         boilerplate-react-typescript-tailwind
-      </div>
-      <div className="flex flex-col">
+      </Section>
+      <Section>
         <div className="mt-2">
           <TextField value="abc" />
         </div>
         <div className="mt-2">
           <Button>Send</Button>
         </div>
-      </div>
-    </div>
+      </Section>
+    </Container>
   );
 }
 
