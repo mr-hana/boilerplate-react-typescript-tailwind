@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container } from 'components/Layout/Container';
 import { Section } from 'components/Layout/Section';
-import { TextField } from 'components/TextField';
-import { Button } from 'components/Button';
+import { TextField } from 'components/Form/TextField';
+import { Button } from 'components/Button/Button';
 
 function App() {
   return (
