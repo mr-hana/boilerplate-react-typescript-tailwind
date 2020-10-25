@@ -7,3 +7,11 @@ exports[`Storyshots Components/Button Default 1`] = `
   button
 </button>
 `;
+
+exports[`Storyshots Components/TextField Default 1`] = `
+<input
+  className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray placeholder-gray-light text-gray-dark focus:outline-none focus:shadow-outline-blue focus:border-secondary-dark sm:text-sm"
+  type="text"
+  value="input value"
+/>
+`;
